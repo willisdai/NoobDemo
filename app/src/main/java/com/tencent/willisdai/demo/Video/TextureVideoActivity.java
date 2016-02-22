@@ -50,7 +50,7 @@ public class TextureVideoActivity extends Activity implements View.OnClickListen
 
         mPlayer.setOnPreparedListener(this);
 
-        AssetFileDescriptor afd = getResources().openRawResourceFd(R.raw.big_buck_bunny_360p_10mb);
+        AssetFileDescriptor afd = getResources().openRawResourceFd(R.raw.big_buck_bunny_720p_20mb);
         if (afd == null) return;
 
         try {

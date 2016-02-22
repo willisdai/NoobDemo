@@ -8,13 +8,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Video.TextureVideoActivity"
-            android:label="@string/title_activity_texture_video"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Video.TextureVideoActivity"/>
+        <activity android:name=".Video.GLSurfaceVideoActivity"/>
+        <activity android:name=".Video.SurfaceVideoActivity"/>
+
+        <activity android:name=".Video.VideoDemoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
